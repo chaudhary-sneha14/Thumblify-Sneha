@@ -105,33 +105,13 @@ Vercel (Frontend + Serverless Backend)
 
 Backend
 
-backend/
-│
-├── controllers/     # Auth & thumbnail logic
+<img width="946" height="251" alt="image" src="https://github.com/user-attachments/assets/cb9a71db-61c7-4380-b53f-f5c0e12d7d22" />
 
-├── models/          # MongoDB schemas
-
-├── routes/          # API endpoints
-
-├── middleware/      # Authentication & error handling
-
-├── validate/        # Zod validation schemas
-
-└── index.js
 
 Frontend
 
-frontend/
-│
-└── src/
+<img width="999" height="237" alt="image" src="https://github.com/user-attachments/assets/53e5b090-8960-48d5-b37d-3201cc6f044a" />
 
-    ├── pages/        # Home, Generator, Gallery
-    
-    ├── components/   # UI components
-    
-    ├── context/      # Global state management
-    
-    └── main.jsx
     
 ⚙️ Getting Started
 
