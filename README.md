@@ -1,143 +1,185 @@
 🎨 Thumblify – AI Thumbnail Generator
-Thumblify is a powerful AI-driven web application that generates high quality thumbnails.
-Just describe your idea, choose a style, and let AI create eye-catching visuals for your content.
 
-MongoDB Express.js React NodeJS TailwindCSS
-<img width="1275" height="686" alt="image" src="https://github.com/user-attachments/assets/75e08d1e-1d62-4b7c-8a3b-06dc7622e68f" />
+Thumblify is an AI-powered web application that generates high-quality thumbnails instantly.
+Simply describe your idea, select a style, and let AI create visually engaging thumbnails for your content.
 
+Built using the MERN Stack with modern UI design and AI image generation capabilities.
 
-Perfect for YouTubers, marketers, and content creators who want professional thumbnails without design skills.
+🚀 Overview
 
-Thumbnail
+Thumblify helps YouTubers, marketers, and content creators create professional thumbnails without needing design skills or editing software.
+
+✅ Describe your idea
+✅ Choose style & aspect ratio
+✅ Generate stunning thumbnails in seconds
+
 🌐 Live Demo & Repository
+
 🔗 Live Demo: Thumblify
+🔗 GitHub Repository:
+https://github.com/Sumit444-commits/Thumblify
 
+📸 Application Preview
+🏠 Home Page
+<img width="1893" height="871" alt="Home Page" src="https://github.com/user-attachments/assets/ef692f1b-cc51-4a1e-a89c-bb674726c24a" />
+🎯 Generator Page
+<img width="1201" height="688" alt="Generator Page" src="https://github.com/user-attachments/assets/c13800cf-fba6-4ff4-978c-2954506bce93" />
+🖼️ My Generations
+<img width="1221" height="677" alt="My Generations Page" src="https://github.com/user-attachments/assets/96951d90-0c23-460e-b4d1-e58dfa47118a" />
+✨ Features
 
-🔗 GitHub Repository: https://github.com/Sumit444-commits/Thumblify
+🎨 AI Thumbnail Generation
+Generate thumbnails using natural language prompts.
 
-📸 Preview
-Home
-<img width="1893" height="871" alt="image" src="https://github.com/user-attachments/assets/ef692f1b-cc51-4a1e-a89c-bb674726c24a" />
+🧩 Custom Styles
 
+Bold & Graphic
 
-Generator Page
-<img width="1201" height="688" alt="image" src="https://github.com/user-attachments/assets/c13800cf-fba6-4ff4-978c-2954506bce93" />
+Minimalist
 
+Photorealistic
 
-My Generations Page
-<img width="1221" height="677" alt="image" src="https://github.com/user-attachments/assets/96951d90-0c23-460e-b4d1-e58dfa47118a" />
+Creative Variants
 
+📐 Multiple Aspect Ratios
 
-🚀 Features
-AI-Powered Generation – Describe your topic and let AI bring it to life.
-Customizable Styles – Bold & Graphic, Minimalist, Photorealistic, and more.
-Aspect Ratios –
-YouTube: 16:9
-Instagram: 1:1
-TikTok / Shorts: 9:16
-Color Schemes – Preset palettes for branding.
-User Gallery – View all your past generations.
-Secure Authentication – Session-based user accounts.
-Fast & Responsive UI – Built with Vite + Tailwind CSS.
+YouTube → 16:9
+
+Instagram → 1:1
+
+TikTok / Shorts → 9:16
+
+🎯 Color Schemes
+Preset branding palettes for consistent visuals.
+
+🖼️ User Gallery
+Access and manage all previously generated thumbnails.
+
+🔐 Secure Authentication
+Session-based login system.
+
+⚡ Fast & Responsive UI
+Optimized using Vite + Tailwind CSS.
+
 🛠️ Tech Stack
-Frontend
+🎯 Frontend
+
 React (Vite)
+
 Tailwind CSS
-Lucide React (Icons)
-Backend
-Node.js + Express
+
+Lucide React Icons
+
+Context API
+
+⚙️ Backend
+
+Node.js
+
+Express.js
+
 MongoDB + Mongoose
-Express-Session
-Bytez.js (AI Models)
-Cloudinary (Image hosting)
-Zod (Validation)
-Deployment
+
+Express Session
+
+Zod Validation
+
+🤖 AI & Media
+
+Bytez.js (AI Image Models)
+
+Cloudinary (Image Storage & Delivery)
+
+🚀 Deployment
+
 Vercel (Frontend + Serverless Backend)
+
 📂 Project Structure
 Backend
-backend/ ├── controllers/ # Auth & generation logic
-
-├── models/ # Mongoose schemas
-
-├── routes/ # API routes
-
-├── middleware/ # Auth & error handling
-
-├── validate/ # Zod schemas
-
+backend/
+│
+├── controllers/     # Auth & thumbnail logic
+├── models/          # MongoDB schemas
+├── routes/          # API endpoints
+├── middleware/      # Authentication & error handling
+├── validate/        # Zod validation schemas
 └── index.js
-
 Frontend
 frontend/
-
-├── src/
-
-│ ├── pages/ # Home, Generator, My Generations
-
-│ ├── components/ # Navbar, Footer, Inputs
-
-│ ├── context/ # Session & global state
-
-│ └── main.jsx
-
+│
+└── src/
+    ├── pages/        # Home, Generator, Gallery
+    ├── components/   # UI components
+    ├── context/      # Global state management
+    └── main.jsx
 ⚙️ Getting Started
-Prerequisites
-React JS
-Node.js v18+
-MongoDB Atlas account
-Bytez.js API Key
+✅ Prerequisites
+
+Node.js (v18+)
+
+MongoDB Atlas Account
+
+Bytez API Key
+
+Cloudinary Account
+
 📥 Installation
-1. Clone the repository
-git clone 
-
+1️⃣ Clone Repository
+git clone <repository-url>
 cd thumblify
-
-2. Install dependencies
-## Backend
+2️⃣ Install Dependencies
+Backend
 cd backend
 npm install
-
-## Frontend
+Frontend
 cd ../frontend
 npm install
-
 🔐 Environment Variables
-
-Create a .env file in backend/
-
+Backend .env
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 SESSION_KEY=your_secret_key
-BYTEZ_API_KEY=your_bytez_key
-CLOUDINARY_URL=CLOUDINARY_URL=cloudinary://<your_api_key>:<your_api_secret>@<your_cloud_name>
-NODE_ENV="production"
-
-Create a .env file in frontend/
-VITE_BASE_URI=your_server_base_uri (e.g: "http://localhost:5000")
-
-
+BYTEZ_API_KEY=your_bytez_api_key
+CLOUDINARY_URL=cloudinary://<api_key>:<api_secret>@<cloud_name>
+NODE_ENV=production
+Frontend .env
+VITE_BASE_URI=http://localhost:5000
 ▶️ Run Locally
-Backend
-
+Start Backend
 cd backend
 npm start
-
-Frontend
-
+Start Frontend
 cd frontend
 npm run dev
+Application Runs On
 
-App will run at:
+Frontend → http://localhost:5173
 
-Frontend: http://localhost:5173
-Backend: http://localhost:5000
+Backend → http://localhost:5000
+
 🧠 How It Works
 
-User describes thumbnail idea
+User enters thumbnail idea
+
 Prompt sent to Bytez AI
+
 AI generates image
+
 Image uploaded to Cloudinary
-Saved to MongoDB
-Displayed in user gallery
-👨‍💻 Author
+
+Metadata stored in MongoDB
+
+Thumbnail displayed in user gallery
+
+👩‍💻 Author
+
 Sneha Chaudhary
+Full Stack Developer | MERN Stack Enthusiast
+
+⭐ Support
+
+If you found this project useful:
+
+⭐ Star the repository
+🍴 Fork and contribute
+💡 Share feedback
