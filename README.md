@@ -19,9 +19,11 @@ Thumblify helps YouTubers, marketers, and content creators create professional t
 🌐 Live Demo & Repository
 
 🔗 Live Demo:
+
 🔗 GitHub Repository: https://github.com/chaudhary-sneha14/Thumblify-Sneha
 
 📸 Application Preview
+
 🏠 Home Page
 <img width="1893" height="871" alt="Home Page" src="https://github.com/user-attachments/assets/ef692f1b-cc51-4a1e-a89c-bb674726c24a" />
 🎯 Generator Page
