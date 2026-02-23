@@ -108,10 +108,15 @@ Backend
 backend/
 │
 ├── controllers/     # Auth & thumbnail logic
+
 ├── models/          # MongoDB schemas
+
 ├── routes/          # API endpoints
+
 ├── middleware/      # Authentication & error handling
+
 ├── validate/        # Zod validation schemas
+
 └── index.js
 
 Frontend
@@ -119,11 +124,17 @@ Frontend
 frontend/
 │
 └── src/
+
     ├── pages/        # Home, Generator, Gallery
+    
     ├── components/   # UI components
+    
     ├── context/      # Global state management
+    
     └── main.jsx
+    
 ⚙️ Getting Started
+
 ✅ Prerequisites
 
 Node.js (v18+)
