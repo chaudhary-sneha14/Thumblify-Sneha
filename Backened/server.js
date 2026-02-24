@@ -11,7 +11,8 @@ import UserRouter from "./Routes/UserRoute.js";
 
 
 const app=express();
-await connectDB()
+const port = process.env.PORT || 3000;
+// await connectDB()
 
 app.use(cors({
     origin:['http://localhost:5173','http://localhost:3000'],
@@ -48,7 +49,11 @@ app.use('/api/auth',AuthRouter)
 app.use('/api/thumbnail',ThumbnailRouter)
 app.use('/api/user',UserRouter)
 
+connectDB().then(
+  app.listen(port, () => {
+    console.log(`Server running on port: ${port}`);
+  }),
+);
 
-app.listen(3000,console.log("Server is running on 3000")
-)
+export default app;
 
